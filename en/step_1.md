@@ -1,59 +1,47 @@
-## Introduction
+You can add a background image which will appear behind other elements on your web page. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+![A colourful electronic circuit background behind the main content on a web page](images/background-image.png)
 
-### What you will make
+Find the following style declaration in `style.css`:
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: CSS
+filename: style.css
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+/* add a background image to body */
 
---- /collapse ---
+body {
+  /*background-image: url('name.jpg');*/ /* Uncomment and change filename to add a background image */
+  /*background-repeat: repeat;*/ /* Make the image repeat */
+  /*background-size: cover;*/ /* Make the image cover the whole container */
+}
 
---- collapse ---
+--- /code ---
+
+Remove the `/*` and `*/` comment markers and replace `name.jpg` with the name of your background image. 
+
+--- code ---
 ---
-title: Additional information for educators
+language: CSS
+filename: style.css
+line_numbers: false
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+/* add a background image to body */
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+body {
+  background-image: url('mybackground.png'); /* Uncomment and change filename to add a background image */
+  /*background-repeat: repeat;*/ /* Make the image repeat */
+  /*background-size: cover;*/ /* Make the image cover the whole container */
+}
 
---- /collapse ---
+--- /code ---
+
+You could also try uncommenting the other properties.
+
+**Tip:** You don't need to update the HTML because this style applies directly to the `<body>` tag. You could create a class to apply a background image to specific elements. 
+
+
