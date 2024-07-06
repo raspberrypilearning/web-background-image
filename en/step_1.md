@@ -1,8 +1,8 @@
-You can add a background image which will appear behind other elements on your web page. 
+You can add a background image to appear behind other elements on your webpage. 
 
-![A colourful electronic circuit background behind the main content on a web page](images/background-image.png)
+![A colourful electronic circuit background behind the main content on a webpage.](images/background-image.png)
 
-Find the following style declaration in `style.css`:
+Find this style declaration in `style.css`:
 
 --- code ---
 ---
