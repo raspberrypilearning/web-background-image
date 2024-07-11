@@ -1,27 +1,8 @@
-You can add a background image to appear behind other elements on your webpage.
+Je kunt een achtergrondafbeelding toevoegen die achter andere elementen op jouw webpagina verschijnt.
 
-![A colourful electronic circuit background behind the main content on a webpage.](images/background-image.png)
+![Een kleurrijke elektronische circuitachtergrond achter de hoofdinhoud op een webpagina.](images/background-image.png)
 
-Find this style declaration in `style.css`:
-
-## --- code ---
-
-language: CSS
-filename: style.css
-line_numbers: false
---------------------------------------------------------
-
-/\* add a background image to body \*/
-
-body {
-/_background-image: url('name.jpg');_/ /\* Uncomment and change filename to add a background image _/
-/_background-repeat: repeat;_/ /_ Make the image repeat _/
-/_background-size: cover;_/ /_ Make the image cover the whole container \*/
-}
-
-\--- /code ---
-
-Remove the `/*` and `*/` comment markers and replace `name.jpg` with the name of your background image.
+Zoek deze style-declaratie in 'style.css':
 
 ## --- code ---
 
@@ -30,16 +11,35 @@ filename: style.css
 line_numbers: false
 --------------------------------------------------------
 
-/\* add a background image to body \*/
+/\* voeg een achtergrondafbeelding toe aan de hoofdtekst \*/
 
 body {
-background-image: url('mybackground.png'); /\* Uncomment and change filename to add a background image _/
-/_background-repeat: repeat;_/ /_ Make the image repeat _/
-/_background-size: cover;_/ /_ Make the image cover the whole container \*/
+/_background-image: url('name.jpg');_/ /\* Verwijder commentaar en wijzig de bestandsnaam om een achtergrondafbeelding toe te voegen _/
+/_background-repeat: repeat;_/ /_ Laat de afbeelding herhalen _/
+/_background-size: cover;_/ /_ Laat de afbeelding de hele container bedekken \*/
 }
 
 \--- /code ---
 
-You could also try uncommenting the other properties.
+Verwijder de `/*` en `*/` commentaar-tekens en vervang `name.jpg` door de naam van je achtergrondafbeelding.
 
-**Tip:** You don't need to update the HTML because this style applies directly to the `<body>` tag. You could create a class to apply a background image to specific elements.
+## --- code ---
+
+language: CSS
+filename: style.css
+line_numbers: false
+--------------------------------------------------------
+
+/\* voeg een achtergrondafbeelding toe aan de hoofdtekst \*/
+
+body {
+background-image: url('mijnachtergrond.png'); /\* Verwijder commentaar en wijzig de bestandsnaam om een achtergrondafbeelding toe te voegen _/
+/_background-repeat: repeat;_/ /_ Laat de afbeelding herhalen _/
+/_background-size: cover;_/ /_ Laat de afbeelding de hele container bedekken \*/
+}
+
+\--- /code ---
+
+Je kunt ook proberen de commentaar-tekens bij de andere eigenschappen te verwijderen.
+
+**Tip:** Je hoeft de HTML niet bij te werken omdat deze stijl direct van toepassing is op de `<body>` tag. Je zou een klasse kunnen maken om een achtergrondafbeelding op specifieke elementen toe te passen.
