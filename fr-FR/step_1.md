@@ -1,27 +1,8 @@
-You can add a background image to appear behind other elements on your webpage.
+Tu peux ajouter une image d'arrière-plan qui apparaîtra derrière d'autres éléments de ta page web.
 
-![A colourful electronic circuit background behind the main content on a webpage.](images/background-image.png)
+![Un arrière-plan de circuit électronique coloré derrière le contenu principal d'une page web.](images/background-image.png)
 
-Find this style declaration in `style.css`:
-
-## --- code ---
-
-language: CSS
-filename: style.css
-line_numbers: false
---------------------------------------------------------
-
-/\* add a background image to body \*/
-
-body {
-/_background-image: url('name.jpg');_/ /\* Uncomment and change filename to add a background image _/
-/_background-repeat: repeat;_/ /_ Make the image repeat _/
-/_background-size: cover;_/ /_ Make the image cover the whole container \*/
-}
-
-\--- /code ---
-
-Remove the `/*` and `*/` comment markers and replace `name.jpg` with the name of your background image.
+Trouve cette déclaration de style dans 'style.css' :
 
 ## --- code ---
 
@@ -30,16 +11,35 @@ filename: style.css
 line_numbers: false
 --------------------------------------------------------
 
-/\* add a background image to body \*/
+/\* ajouter une image d'arrière-plan au corps \*/
 
 body {
-background-image: url('mybackground.png'); /\* Uncomment and change filename to add a background image _/
-/_background-repeat: repeat;_/ /_ Make the image repeat _/
-/_background-size: cover;_/ /_ Make the image cover the whole container \*/
+/_background-image: url('name.jpg');_/ /\* Décommenter et changer le nom du fichier pour ajouter une image d'arrière-plan \*/
+/\*background-repeat: repeat; _/ /_ Faire répéter l'image _/
+/_background-size: cover;_/ /_ Faire en sorte que l'image recouvre tout le conteneur \*/
 }
 
 \--- /code ---
 
-You could also try uncommenting the other properties.
+Supprime les marqueurs de commentaires '/_' et '_/' et remplace 'name.jpg' par le nom de ton image d'arrière-plan.
 
-**Tip:** You don't need to update the HTML because this style applies directly to the `<body>` tag. You could create a class to apply a background image to specific elements.
+## --- code ---
+
+language: CSS
+filename: style.css
+line_numbers: false
+--------------------------------------------------------
+
+/\* ajouter une image d'arrière-plan au corps \*/
+
+body {
+background-image: url('mybackground.png'); /\* Décommenter et changer le nom du fichier pour ajouter une image d'arrière-plan \*/
+/\*background-repeat: repeat; _/ /_ Faire répéter l'image _/
+/_background-size: cover;_/ /_ Faire en sorte que l'image recouvre tout le conteneur \*/
+}
+
+\--- /code ---
+
+Tu peux également essayer de supprimer les commentaires des autres propriétés.
+
+**Astuce :** tu n'as pas besoin de mettre à jour le HTML car ce style s'applique directement à la balise '<body>'. Tu peux créer une classe pour appliquer une image d'arrière-plan à des éléments spécifiques.
