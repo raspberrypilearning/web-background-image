@@ -43,3 +43,5 @@ background-image: url('mybackground.png'); /\* Décommenter et changer le nom du
 Tu peux également essayer de supprimer les commentaires des autres propriétés.
 
 **Astuce :** tu n'as pas besoin de mettre à jour le HTML car ce style s'applique directement à la balise '<body>'. Tu peux créer une classe pour appliquer une image d'arrière-plan à des éléments spécifiques.
+
+
