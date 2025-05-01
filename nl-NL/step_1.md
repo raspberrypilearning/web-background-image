@@ -43,3 +43,5 @@ background-image: url('mijnachtergrond.png'); /\* Verwijder commentaar en wijzig
 Je kunt ook proberen de commentaar-tekens bij de andere eigenschappen te verwijderen.
 
 **Tip:** Je hoeft de HTML niet bij te werken omdat deze stijl direct van toepassing is op de `<body>` tag. Je zou een klasse kunnen maken om een achtergrondafbeelding op specifieke elementen toe te passen.
+
+
